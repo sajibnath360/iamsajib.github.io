@@ -1,0 +1,177 @@
+@media only screen and (max-width:980px){
+    
+    .iam{
+        width: 75%;
+    }
+    
+    .my-menu-ul li{
+        padding-left: .5rem;
+    }
+    header ul li:nth-child(3){
+        margin-right: 0rem;
+    }
+    header ul li:nth-child(4){
+        margin-left: 10rem;
+    }
+    .my-menu-ul li:last-child{
+        margin-right: 1.5rem;
+    }
+    .my-description p{
+        width: 80%;
+    }
+    .my-description::before{
+        width: 90%;
+    }
+    /* FOR STICKY NAV */
+    .sticky ul li:nth-child(4){
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .mission-div{
+        width: 100%;
+    }
+    .expert-section .col-md-12{
+        padding: 0;
+    }
+    .col-md-12.all-service{
+    display: grid;
+        
+    }
+    .same{
+        padding: 20px;
+        margin: 20px auto 5px;
+        width: 65%;
+        -webkit-box-shadow: 8px 10px 10px #ccc;
+        box-shadow: 8px 10px 10px #ccc;
+    }
+    /* FOR STICKY NAV */
+    .sticky{
+        padding: 0px;
+    }
+    .sticky button i{
+        color: #fff;
+    }
+    
+}
+
+@media only screen and (max-width:676px){
+    .mission-section .col-md-12{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:576px){
+    
+    .my-intro{
+    padding: 20px 0px 100px;
+    }
+    /* MISSION SECTION */
+    
+    .mission-section{
+        padding: 4rem
+    }
+    .mission-section h5{
+        font-size: 16px;
+    }
+    .skill-section p{
+        margin-bottom: 5px;
+    }
+    
+    /* HIRE SECTION */
+    
+    .hire-section ul h6{
+        font-size: 14px;
+    }
+    .hire-section .first-ul li:first-child{
+    margin-top: 3px;
+    }
+    .hire-div::before{
+        width: 90%
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+    /* HOME SECTION */
+    .iam{
+        
+    }
+    .iam h1{
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    .iam p{
+        margin-bottom: 10px;
+    }
+    .my-intro{
+    padding: 10px 0px 90px;
+    }
+    .picsideme .my-jpg{
+        width: 125px;
+        height: 125px;
+    }
+    /* ABOUT SECTION */
+    
+    .about-section{
+        padding: 4.5rem 0 2.5rem;
+    }
+    /* EXPERT SECTION */
+    .expert-section p.expert-title{
+        margin-bottom: 3rem;
+    }
+    /* SKILL SECTION */
+    .skill-section{
+        padding:3rem 0 7rem;
+    }
+    svg.radial-progress circle{
+        stroke-width:2;
+    }
+    /* CONTACT SECTION */
+    .contact-section {
+        padding: 2.5rem 0 2rem;
+    }
+    
+}
+
+@media only screen and (max-width:360px){
+    
+    .iam{
+        width: 93%;
+    }
+    .my-description::before{
+        width: 84%
+    }
+    .my-description p{
+        width: 95%;
+    }
+    .mission-div h5{
+        padding: 0px 10px;
+    }
+    .proven{
+        display: none;
+    }
+    .hire-btn{
+        margin-top: 0
+    }
+    
+}
+
+@media only screen and (max-width:346px){
+    .my-description::before{
+        width: 85%;
+    }
+    .hire-div ul{
+        display: grid;
+    }
+    .hire-section .first-ul li:first-child{
+        list-style-type: disc;
+        margin-left: 1rem;
+        padding-left: 2rem
+    }
+	.hire-prove{
+			display:none;
+	}
+    
+}
